@@ -1,0 +1,29 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: A.J. Brown
+subtitle: Software Scalability and Platforms Architect
+email: aj@ajbrown.org
+description: > # this means to ignore newlines until "baseurl:"
+  A.J. Brown is a Software Architect and Cloud Architect passionate about software
+  craftsmaship, high scalability, and microservice platforms, and Amazon Web Services.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ajbrown.org" # the base hostname & protocol for your site
+twitter_username: adrianjbrown
+github_username:  ajbrown
+linkedin_username: ajbrown
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+
+gems:
+  - jekyll-coffeescript

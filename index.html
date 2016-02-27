@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <p class="intro">
+    <strong class="heavy">Hi, My name is A.J.</strong> I enjoy writing software
+    that solves interesting problems at scale.  I believe in and practice software
+    craftsmaship, and enjoy working with others that do the same.
+  </p>
+
+
+{% if site.posts.size() > 1 %}
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% else %}
+
+<p>There's not much to see here yet.</p>
+
+{% endif %}
+
+</div>
