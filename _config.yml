@@ -10,8 +10,8 @@ title: A.J. Brown
 subtitle: Software Scalability and Platforms Architect
 email: aj@ajbrown.org
 description: > # this means to ignore newlines until "baseurl:"
-  A.J. Brown is a Software Architect and Cloud Architect passionate about software
-  craftsmaship, high scalability, and microservice platforms, and Amazon Web Services.
+  A.J. Brown is an AWS Certified Solutions Architect passionate about software
+  craftsmaship, developer productivity, microservice platforms, and Amazon Web Services.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ajbrown.org" # the base hostname & protocol for your site
 twitter_username: adrianjbrown
