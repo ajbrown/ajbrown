@@ -1,17 +1,24 @@
 ---
 layout: default
-title: Software Arichitecture, Craftsmanship, and Technology Strategy | A.J. Brown
-description: Technology Strategist, AWS Certified Solutions Architect, and software craftsman with start-up leadership experience who loves solving interesting technical problems at scale.
+title: Principal Software Engineer @ Sonatype, Inc w/ Product Management Experience | A.J. Brown
+description: The personal website of A.J. Brown -- Principal Engineer, Product Manager, Technology Strategist, AWS Certified Solutions Architect, and software craftsman with start-up leadership experience who loves solving interesting technical problems at scale.
 
 ---
 
 <div class="home">
 
   <p class="intro">
-    <strong class="heavy">Hi, My name is A.J.</strong>.  I'm an AWS Certified
-    Solutions Architect that enjoys building software that solves interesting
-    problems at scale.  I believe in and practice software craftsmanship, and
-    enjoy working with others that do the same.
+    <strong class="heavy">Hi, My name is A.J.</strong>.
+    I'm a seasoned software engineer and technical leader currently driving some really cool Software Supply Chain
+    products and solutions as a Principal Engineer @ <a href="https://sonatype.com">Sonatype</a>
+    (<a href="https://bit.ly/3oMSZoj">We're hiring!</a>).
+  </p>
+
+  <p  class="intro-sub">
+    As a startup veteran, I've successfully played many roles from Engineer (individual contributor and management)
+    to Product Manager to Chief Technology Officer.  At the end of the day, my passion is delivering products that improve the lives of
+    customers for companies that improve the lives of it's employees.  Check out <a href="https://www.linkedin.com/in/ajbrown/">my LinkedIn profile</a>
+    for more info on the great companies I've worked for.
   </p>
 
 {% if site.posts.size > 0 %}
@@ -37,10 +44,11 @@ description: Technology Strategist, AWS Certified Solutions Architect, and softw
 
 </div>
 
-<script type="application/ld+json">
+<script type="application/ld+json>
 {
   "@context": "http://schema.org",
   "@type": "Person",
+  "@id": "https://ajbrown.org/#person",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Vandalia",
@@ -51,7 +59,12 @@ description: Technology Strategist, AWS Certified Solutions Architect, and softw
   "worksFor": {
     "@type" : "Organization",
     "name" : "Sonatype, Inc.",
-    "url" : "https://sonatype.com"
+    "url" : "https://sonatype.com",
+    "sameAs" : [
+      "https://www.linkedin.com/company/sonatype",
+      "https://twitter.com/sonatype",
+      "https://www.facebook.com/Sonatype/"
+    ]
   },
   "sameAs" : [
     "https://twitter.com/adrianjbrown",
@@ -60,9 +73,23 @@ description: Technology Strategist, AWS Certified Solutions Architect, and softw
     "https://angel.co/adrianjbrown"
   ],
   "image": "https://ajbrown.org/aj_brown.jpg",
-  "jobTitle": "AWS Certified Solutions Architect",
+  "jobTitle": "Principal Engineer, Research",
   "name": "A.J. Brown",
-  "telephone": "(937) 314-1457",
-  "url": "https://ajbrown.org"
+  "telephone": "(937) 626-5999",
+  "url": "https://ajbrown.org",
+  "email": "aj@ajbrown.org",
+  "gender" : "male",
+  "award": [
+    "AWS Certified Solutions Architect"
+  ],
+  "birthplace": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sacramento",
+      "addressRegion": "CA",
+      "addressCountry": "United States"
+    }
+  }
 }
 </script>

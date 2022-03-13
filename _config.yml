@@ -1,8 +1,8 @@
 title: A.J. Brown
-subtitle: Software Scalability and Platforms Architect
+subtitle: Principal Software Engineer and Technical Product Manager
 email: aj@ajbrown.org
 description: > # this means to ignore newlines until "baseurl:"
-  A.J. Brown is an AWS Certified Solutions Architect and Java developer from Dayton Ohio. He's passionate about software
+  A.J. Brown is a Principal Software Engineer and Technical Product Manager from Dayton Ohio. He's passionate about software
   craftsmanship, developer productivity, microservice platforms, and Amazon Web Services.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ajbrown.org" # the base hostname & protocol for your site
