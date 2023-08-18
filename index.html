@@ -21,27 +21,6 @@ description: The personal website of A.J. Brown -- Principal Engineer, Product M
     for more info on the great companies I've worked for.
   </p>
 
-{% if site.posts.size > 0 %}
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-{% else %}
-
-<p>There's not much to see here yet.</p>
-
-{% endif %}
-
 </div>
 
 <script type="application/ld+json>
